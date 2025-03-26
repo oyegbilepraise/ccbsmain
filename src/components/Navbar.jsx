@@ -125,7 +125,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   className={`inline-flex items-center px-4 py-1 rounded-full ${scrolled ? "text-black" : "text-white"}`}
-                  href="/companies"
+                  href="/blog"
                 >
                   Blogs
                 </Link>
