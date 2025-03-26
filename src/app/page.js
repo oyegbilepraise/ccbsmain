@@ -4,6 +4,7 @@ import Mission from "../components/Mission";
 import Strategic from "../components/Stategies";
 import Expressions from "../components/Expressions";
 import Footer from "../components/Footer";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Mission/>
-      <Strategic/>
       <Expressions/>
+      <Strategic/>
+      <Testimonial/>
       <Footer/>
     </div>
   );
